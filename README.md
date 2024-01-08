@@ -1,5 +1,5 @@
 # Battery
-Application that notify you when battery reaches a certain level while charging.
+Application that notify you with sound when battery reaches a certain level while charging.
 
 Simple but enought interesting app. Using "no UI" foreground service which recieve broadcasts from the system.
 Broadcast receiver class is not working at the main thread using extension function that working in coroutine. 
